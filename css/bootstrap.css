@@ -1624,6 +1624,9 @@ h6 {
 p {
     margin: 0 0 30px
 }
+.col-sm-6 p {
+    margin: 30px 0 0 0; 
+}
 
 .lead {
     margin-bottom: 20px;
