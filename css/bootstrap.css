@@ -1429,20 +1429,20 @@ figure {
 img {
     vertical-align: middle
 }
-@media (min-width: 767px) {
-    .img-responsive {
-        display: block;
-    }
-}
+
 .carousel-inner > .item > a > img,
 .carousel-inner > .item > img,
 .thumbnail a > img,
-.thumbnail > img {
+.thumbnail > img, .img-responsive {
     display: block;
     max-width: 100%;
     height: auto
 }
-
+@media (min-width:515px) and (max-width: 767px) {
+    .img-responsive {
+        display: initial;
+    }
+}
 .img-rounded {
     border-radius: 6px
 }
@@ -4324,15 +4324,6 @@ tbody.collapse.in {
     color: #777
 }
 
-.dropdown-menu>.disabled>a:focus,
-.dropdown-menu>.disabled>a:hover {
-    text-decoration: none;
-    cursor: not-allowed;
-    background-color: transparent;
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false)
-}
-
 .open>.dropdown-menu {
     display: block
 }
@@ -5081,7 +5072,7 @@ textarea.input-group-sm>.input-group-btn>.btn {
     max-height: 200px
 }
 
-@media (min-device-width:480px) and (orientation:landscape) {
+@media (min-width:480px) and (orientation:landscape) {
     .navbar-fixed-bottom .navbar-collapse,
     .navbar-fixed-top .navbar-collapse {
         max-height: 340px
