@@ -1009,7 +1009,8 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto auto 10px auto;
+    font-size: 20px;
 }
 
 
@@ -1179,11 +1180,6 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
-}
-@media (min-width:1351px){
-    .bg-banniere{
-        background-size: contain;
-    }
 }
 
 
