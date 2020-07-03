@@ -74,7 +74,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none !important;
+    outline: none ;
 }
 
 
@@ -146,10 +146,10 @@ button {
 .bg-tr-edge,
 .bg-br-edge,
 .bg-repeat {
-    -webkit-background-size: auto !important;
-    -moz-background-size: auto !important;
-    -o-background-size: auto !important;
-    background-size: auto !important;
+    -webkit-background-size: auto ;
+    -moz-background-size: auto ;
+    -o-background-size: auto ;
+    background-size: auto ;
 }
 
 
@@ -526,7 +526,7 @@ button {
 
 
     .navbar-toggle:hover {
-        background: transparent !important;
+        background: transparent ;
     }
 
 
@@ -605,7 +605,7 @@ button {
 
 
 .nav > li > .dropdown a {
-    background: none !important;
+    background: none ;
     display: block;
     padding: 14px 15px;
 }
@@ -640,7 +640,7 @@ nav .caret {
     border-top-color: transparent;
     border-right-color: transparent;
     border-bottom-color: transparent;
-    margin: 6px -5px 0 0 !important;
+    margin: 6px -5px 0 0 ;
     float: right;
 }
 
@@ -682,7 +682,7 @@ nav .caret {
 
 
 button {
-    outline: none !important;
+    outline: none ;
 }
 
 
@@ -703,13 +703,13 @@ button {
 
 
 .icon-md {
-    font-size: 30px !important;
+    font-size: 30px ;
 }
 
 
 
 .icon-lg {
-    font-size: 60px !important;
+    font-size: 60px ;
 }
 
 
@@ -934,7 +934,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757 !important;
+    color: #575757 ;
 }
 
 
@@ -998,7 +998,7 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -1026,7 +1026,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333 !important;
+    color: #333333 ;
 }
 
 
@@ -1040,13 +1040,13 @@ h3 {
 
 
 h1 {
-    color: #333333 !important;
+    color: #333333 ;
 }
 
 
 
 h4 {
-    color: #333333 !important;
+    color: #333333 ;
 }
 
 
@@ -1059,11 +1059,11 @@ h4 {
 
 
 .white {
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
 }
 
 .black {
-    color: #575757 !important;
+    color: #575757 ;
 }
 
 
@@ -1091,7 +1091,7 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline !important;
+    text-decoration: underline ;
 }
 
 
@@ -1115,52 +1115,52 @@ h4 {
 
 
 .tc-white {
-    color: #F8C199 !important;
+    color: #F8C199 ;
 }
 
 
 
 .btn-atomic-tangerine {
     background: #F8C199;
-    color: #575757 !important;
+    color: #575757 ;
 }
 
 
 
     .btn-atomic-tangerine:hover {
-        background: #c27956 !important;
-        color: #FFFFFF !important;
+        background: #c27956 ;
+        color: #FFFFFF ;
     }
 
 
 
 .ltc-white {
-    color: #FFFFFF !important;
+    color: #FFFFFF ;
 }
 
 
 
     .ltc-white:hover {
-        color: #cccccc !important;
+        color: #cccccc ;
     }
 
 
 
 .ltc-atomic-tangerine {
-    color: #F8C199 !important;
+    color: #F8C199 ;
 }
 
 
 
     .ltc-atomic-tangerine:hover {
-        color: #c27956 !important;
+        color: #c27956 ;
     }
 
 
 
 .icon-dark-slate-blue {
-    color: #364577 !important;
-    border-color: #364577 !important;
+    color: #364577 ;
+    border-color: #364577 ;
 }
 
 
@@ -1179,6 +1179,11 @@ h4 {
 
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
+}
+@media (min-width:1351px){
+    .bg-banniere{
+        background-size: contain;
+    }
 }
 
 
@@ -1285,8 +1290,8 @@ h4 {
     h6,
     p,
     #disqus_thread {
-        padding-left: 10px !important;
-        padding-right: 10px !important;
+        padding-left: 10px ;
+        padding-right: 10px ;
     }
 
     .b-parallax {
@@ -1296,7 +1301,7 @@ h4 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none !important;
+        float: none ;
     }
 
     .navbar.row {
@@ -1326,7 +1331,7 @@ h4 {
 
     .dropdown .dropdown a .caret {
         float: none;
-        margin: 5px 0 0 10px !important;
+        margin: 5px 0 0 10px ;
         border: 4px solid black;
         border-bottom-color: transparent;
         border-right-color: transparent;
